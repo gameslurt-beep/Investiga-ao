@@ -31,6 +31,12 @@ Investigar vídeos virais pela ótica da percepção e da conexão do público (
 - Tabela das 9 batidas: origem, por que prende, como dar mais força.
 - Documento: https://claude.ai/artifact/M5JTSRFoYGA6n8WvSkGJxL (6 fontes conferidas na web; o resto ainda é de memória)
 
+## 6. Quem é você (Dia 1): primeira história original
+- Você entra numa casa escura achando que é a vítima; a câmera 2 mostra que o invasor é você. A dona está escondida no armário, e a caixa azul tem a foto de uma criança com o seu nome. Final em escolha (1 abrir o armário, 2 ir embora com a caixa).
+- Roteiro v2 com gancho A (sussurro "Ele está dentro da minha casa" + notificação da câmera 2) e prompts do Flow: `quem-e-voce-dia1/`.
+- Montagem em código (Remotion, lanterna revelando a versão acesa, boneco de costas dividido em partes, CCTV, casa em corte): `quem-e-voce-dia1/codigo/` (passos em `LEIA-ME.md`).
+- Vídeo entregue em 22/10/2026 sem narração e sem legenda; o Lucas vai mandar a narração depois. Vídeo, imagens do Flow e a cópia completa da montagem ficam na pasta do projeto, em `quem-e-voce/`.
+
 ## Regras de trabalho do Lucas
 - Não começar nada sem ele dizer "pode fazer". Pergunta ou pensamento em voz alta não é pedido.
 - Prompts do Flow: em inglês, para o agente do Flow, em um único bloco (só separar imagens de vídeos).

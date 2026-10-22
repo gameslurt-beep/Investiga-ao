@@ -12,3 +12,7 @@
 - Parte 4, molde de 9 batidas dos vídeos de sobrevivência: [[video-molde-sobrevivencia]].
 - Índice geral de todas as investigações e links: /mnt/project-files/indice/investigacoes.md (ler primeiro numa sessão nova).
 - Raízes e psicologia das 9 batidas (o "você", alerta, regras, final): [[pesquisa-raizes-roteiros]].
+
+- Criar histórias originais (direção, o que foi recusado): [[direcao-novas-historias]].
+- Primeira história original, "Quem é você (Dia 1)": [[quem-e-voce-producao]].
+- "Verifique X e me envie" = mandar o conteúdo, não uma revisão: [[feedback-enviar-vs-revisar]].
