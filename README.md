@@ -1,6 +1,6 @@
 # Índice das investigações (atualizado em 22/10/2026)
 
-Ponto de partida para qualquer sessão nova. Código, roteiros e prompts estão em `investigacoes/` (mesma estrutura da pasta do projeto). As notas da memória do projeto estão em `notas/`. Vídeos e imagens ficam só na pasta do projeto no Claude.
+Ponto de partida para qualquer sessão nova. Código, roteiros e prompts estão em `investigacoes/` (mesma estrutura da pasta do projeto). As notas da memória do projeto estão em `notas/`. O texto completo dos documentos de análise está em `documentos/`. Vídeos e imagens ficam só na pasta do projeto no Claude.
 
 ## Foco do projeto
 Investigar vídeos virais pela ótica da percepção e da conexão do público (narrativa, referências, o "você", o gancho). Não é sobre marca.
