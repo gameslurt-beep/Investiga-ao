@@ -909,7 +909,7 @@ const S10 = (t: number, f: number) => {
 	const fade = sm((t - (E('n28') + 0.25)) / 0.25);
 	return (
 		<AbsoluteFill style={{background: '#000'}}>
-			<Cctv src="cctv_face.jpg" t={t} f={f} zoom={z} fx={386} fy={640} glitch={g} big blur={2.1} noise={0.5} />
+			<Cctv src="cctv_mid.jpg" t={t} f={f} zoom={z * 1.6} fx={384} fy={600} glitch={g} big blur={1.2} noise={0.5} />
 			{flash > 0 && <AbsoluteFill style={{background: '#fff', opacity: flash}} />}
 			<Black o={fade} />
 		</AbsoluteFill>
