@@ -19,7 +19,7 @@ Inspirações usadas: livro-jogo (estar dentro, pelos detalhes que a lanterna mo
 | Quarto: cama desfeita, papéis no chão, escrivaninha | Quarto. Escrivaninha. Última gaveta. | Quarto. Cama desfeita. Papéis no chão. Escrivaninha, última gaveta. |
 | Caixa azul | A caixa azul. | A caixa azul. Empoeirada, como se ninguém abrisse há anos. |
 | Armário com fresta de luz fria | Aí você ouve. Uma respiração. Vem do armário. | Aí você ouve. Uma respiração. Pela fresta do armário, uma luz fria. A tela de um celular. |
-| Celular vibra de novo, câmera | O celular vibra de novo. Câmera dois. Você abre o vídeo. A pessoa do corredor olha para cima. | O celular vibra de novo. A mesma câmera. Você abre o vídeo. A pessoa do corredor levanta o rosto. |
+| Celular vibra de novo, câmera | O celular vibra de novo. Câmera dois. Você abre o vídeo. A pessoa do corredor olha para cima. | O celular vibra de novo. A mesma câmera. Você abre a gravação. Onze e quarenta e um. A pessoa do corredor levanta o rosto. (a tela mostra ▶ GRAVAÇÃO e a hora 23:41) |
 | Rosto na câmera | É você. | (silêncio) É você. |
 | Mulher no armário (eco) | Mulher: o mesmo sussurro | igual |
 | Casa em corte | (nada) | (silêncio) |
@@ -73,7 +73,7 @@ Uma respiração.
 Pela fresta do armário, uma luz fria. A tela de um celular.
 
 O celular vibra de novo. A mesma câmera.
-Você abre o vídeo.
+Você abre a gravação. Onze e quarenta e um.
 A pessoa do corredor levanta o rosto.
 ...
 É você.

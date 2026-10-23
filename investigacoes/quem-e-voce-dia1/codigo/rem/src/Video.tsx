@@ -324,7 +324,7 @@ const clockStr = (base: number, t: number) => {
 	return `${hh}:${String(mm).padStart(2, '0')}:${String(ss).padStart(2, '0')}`;
 };
 // tela de câmera de segurança em 1080x1920
-const Cctv: React.FC<{src: string; t: number; f: number; zoom?: number; fx?: number; fy?: number; glitch?: number; blur?: number; label?: string; big?: boolean; noise?: number; pad?: number; padY?: number; topY?: number}> = ({
+const Cctv: React.FC<{src: string; t: number; f: number; zoom?: number; fx?: number; fy?: number; glitch?: number; blur?: number; label?: string; big?: boolean; noise?: number; pad?: number; padY?: number; topY?: number; tag?: string; clockOff?: number}> = ({
 	src,
 	t,
 	f,
@@ -339,6 +339,8 @@ const Cctv: React.FC<{src: string; t: number; f: number; zoom?: number; fx?: num
 	pad = 54,
 	padY = 70,
 	topY,
+	tag,
+	clockOff = 0,
 }) => {
 	const k = camT({x: fx, y: fy, z: zoom});
 	const roll = (t * 90) % 1920;
@@ -385,10 +387,10 @@ const Cctv: React.FC<{src: string; t: number; f: number; zoom?: number; fx?: num
 			<Grain f={f} o={noise} />
 			<AbsoluteFill style={{background: 'radial-gradient(ellipse 70% 58% at 50% 50%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.75) 100%)'}} />
 			<div style={{position: 'absolute', left: pad, top: topY ?? padY, fontFamily: 'Mono', fontSize: 44 * ts, color: 'rgba(200,255,210,0.92)', letterSpacing: 2, textShadow: '0 0 10px rgba(120,255,150,.6)'}}>
-				<span style={{color: '#ff3b3b', opacity: Math.floor(t * 2) % 2 ? 1 : 0.25}}>●</span> {big ? 'REC' : 'CAM 2'}
+				<span style={{color: '#ff3b3b', opacity: Math.floor(t * 2) % 2 ? 1 : 0.25}}>●</span> {tag ?? (big ? 'REC' : 'CAM 2')}
 			</div>
 			{big && <div style={{position: 'absolute', right: pad, top: padY, fontFamily: 'Mono', fontSize: 40 * ts, color: 'rgba(200,255,210,0.92)', letterSpacing: 2}}>{label}</div>}
-			<div style={{position: 'absolute', right: pad, bottom: padY + 10, fontFamily: 'Mono', fontSize: 46 * ts, color: 'rgba(200,255,210,0.92)', letterSpacing: 3}}>{clockStr(41 * 60 + 2, t - 3)}</div>
+			<div style={{position: 'absolute', right: pad, bottom: padY + 10, fontFamily: 'Mono', fontSize: 46 * ts, color: 'rgba(200,255,210,0.92)', letterSpacing: 3}}>{clockStr(41 * 60 + 2, t - 3 - clockOff)}</div>
 		</AbsoluteFill>
 	);
 };
@@ -893,7 +895,7 @@ const S10 = (t: number, f: number) => {
 					<Img src={A('ward_gap.jpg')} style={FULL} />
 				</World>
 				<Phone cx={560 + vib} cy={lerp(2700, 940, up) + zi * 20} s={s} rot={-3 + vib * 0.25}>
-					<Cctv src="cctv_mid.jpg" t={t} f={f} noise={0.35} pad={150} padY={170} topY={440} />
+					<Cctv src="cctv_mid.jpg" t={t} f={f} tag="▶ GRAVAÇÃO" clockOff={38} noise={0.35} pad={150} padY={170} topY={440} />
 					<Notif y={lerp(-200, 235, sm((t - vt) / 0.3))} o={sm((t - vt) / 0.3) * (1 - zi)} w={820} />
 				</Phone>
 				<Vig o={0.7} />
@@ -901,7 +903,7 @@ const S10 = (t: number, f: number) => {
 		);
 	}
 	if (t < tf) {
-		return <Cctv src="cctv_mid.jpg" t={t} f={f} zoom={kf(t, [[tv + 0.5, 1.15], [tf, 1.6]])} fx={384} fy={kf(t, [[tv + 0.5, 600], [tf, 420]])} big noise={0.38} />;
+		return <Cctv src="cctv_mid.jpg" t={t} f={f} tag="▶ GRAVAÇÃO" clockOff={38} zoom={kf(t, [[tv + 0.5, 1.15], [tf, 1.6]])} fx={384} fy={kf(t, [[tv + 0.5, 600], [tf, 420]])} big noise={0.38} />;
 	}
 	const g = clamp(1 - (t - tf) / 0.35) + (t > te ? clamp(1 - (t - te) / 0.3) * 1.2 : 0);
 	const z = kf(t, [[tf, 1.05], [te, 1.22], [te + 0.08, 1.45], [tEnd, 1.55]]);
@@ -909,7 +911,7 @@ const S10 = (t: number, f: number) => {
 	const fade = sm((t - (E('n28') + 0.25)) / 0.25);
 	return (
 		<AbsoluteFill style={{background: '#000'}}>
-			<Cctv src="cctv_mid.jpg" t={t} f={f} zoom={z * 1.6} fx={384} fy={600} glitch={g} big blur={1.2} noise={0.5} />
+			<Cctv src="cctv_mid.jpg" t={t} f={f} tag="▶ GRAVAÇÃO" clockOff={38} zoom={z * 1.6} fx={384} fy={600} glitch={g} big blur={1.2} noise={0.5} />
 			{flash > 0 && <AbsoluteFill style={{background: '#fff', opacity: flash}} />}
 			<Black o={fade} />
 		</AbsoluteFill>
