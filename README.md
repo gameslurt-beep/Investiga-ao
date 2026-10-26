@@ -2,6 +2,21 @@
 
 Ponto de partida para qualquer sessão nova. Código, roteiros e prompts estão em `investigacoes/` (mesma estrutura da pasta do projeto). As notas da memória do projeto estão em `notas/`. O texto completo dos documentos de análise está em `documentos/`. Vídeos e imagens ficam só na pasta do projeto no Claude.
 
+## 0. COMECE AQUI (atualizado em 26/10/2026)
+### Vídeo da eleição 2026: "Os que mudaram de lado" (em debate)
+- Tudo o que foi debatido (ideia escolhida, estrutura de 8 partes, "mapa de vento", regras de neutralidade, dados necessários, ideias de reserva): `investigacoes/eleicao-2026/DEBATE-ideia.md`
+- Nota da memória: `notas/video-eleicao-2026.md`
+- Só produzir depois do resultado OFICIAL do TSE. Fase atual = debate, nada de código ou prompt sem o Luke pedir.
+
+### Referência do mapa (identidade do canal, trabalhada no projeto anterior)
+- Identidade e decisões do mapa (satélite EOX, destaque holofote + véu + contorno, janelinha de vídeo, referências Bloomberg/Johnny Harris/RealLifeLore): `notas/identidade-mapa.md`
+- Ideias de mapa para testar e referências de canais: `investigacoes/mapa-referencia/IDEIAS-para-testar.md`
+- Resumo da thread do mapa e plano: `investigacoes/mapa-referencia/RESUMO-thread-mapa.md`, `PLANO-videos-por-dia.md`
+- Código da cena-teste no mapa (Remotion): `investigacoes/mapa-referencia/codigo/Dia3.tsx`, `Dia3Mix.tsx`, `destaques-render.py`; preparo de máscaras e divisas: `investigacoes/mapa-referencia/fonte/` (como montar: `LEIA-projeto.md`)
+- Prancha de destaques: https://claude.ai/artifact/WNrcCVtdk5eVEyvT5dHsdk
+- Vídeos, imagens de satélite e o projeto Remotion completo (sp3d-mapa.tar.gz) ficam só na pasta do projeto: `sao-paulo-30dias/mapa-novo/` e `sao-paulo-30dias/bibliotecas/`.
+- Atenção: o mapa é referência de TÉCNICA. O Luke pediu para esquecer o tema "SP país / 30 dias" no vídeo da eleição.
+
 ## Foco do projeto
 Investigar vídeos virais pela ótica da percepção e da conexão do público (narrativa, referências, o "você", o gancho). Não é sobre marca.
 
