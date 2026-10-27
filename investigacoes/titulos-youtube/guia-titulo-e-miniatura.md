@@ -82,19 +82,21 @@ Imagens de apoio: `miniaturas-campeas.jpg` (12 maiores acertos) e `miniaturas-fr
 
 ---
 
-## 4. Aplicando no vídeo de São Paulo
+## 4. Aplicando no vídeo de São Paulo (a partir do próprio vídeo)
 
-O título atual, "São Paulo é um país, você tem 30 dias", quebra as regras 2, 3 e 5: a premissa é falsa sem explicação, são duas ideias em uma frase e não há juízo. Opções no molde:
+**O que o vídeo é** (transcrição em `sp-30dias-transcricao.txt`): à meia-noite São Paulo vira um país, e todo mundo recebe no celular "Você tem 30 dias". Dia a dia, o vídeo mostra o que SP ganha (imposto, porto, etanol, laranja) e o que passa a depender do resto do Brasil (luz, água, arroz, família, os clientes das fábricas). No fim, a segunda mensagem: cada um decide de que lado fica. "De um lado, o dinheiro, o porto e o etanol. Do outro, a luz, a água, o arroz e a família. E você? Escolheria qual?"
 
-| Título | Texto da miniatura (diferente do título) | Imagem |
-|---|---|---|
-| E se São Paulo fosse um país? | **NOVO PAÍS?** | mapa do Brasil apagado, SP em destaque com borda de fronteira e uma bandeira |
-| Por que nenhum outro estado é como São Paulo | **SP NÃO É NORMAL** | o mesmo mapa, só com SP aceso |
-| Se São Paulo fosse um país, seria mais rico que a Argentina? *(conferir o PIB antes)* | **SP > ARGENTINA?** | SP e Argentina lado a lado, do mesmo tamanho na tela |
+**Por que o título atual não funcionou:** "São Paulo é um país, você tem 30 dias" afirma uma coisa falsa, junta duas ideias e esconde o melhor do vídeo, que é a dependência dos dois lados e a escolha do final. O "você tem 30 dias" é ótimo, mas como imagem (é a abertura do vídeo), não como título.
 
-Sugestão: subir as três miniaturas no "Testar e comparar" com o título 1. O vídeo também precisa abrir cumprindo a promessa: a primeira frase falando de São Paulo como país e a primeira imagem igual à miniatura.
+**Pares de título e miniatura tirados do vídeo:**
 
----
+| Título | Miniatura (imagem que já existe no vídeo) |
+|---|---|
+| E se São Paulo virasse um país amanhã? | SP aceso no mapa escuro + o celular com "Você tem 30 dias." (é a primeira imagem do vídeo, então a promessa se cumpre no primeiro segundo) |
+| Se São Paulo virasse um país, quem perderia mais? | o quadro do Dia 30: SP em laranja com "DINHEIRO · PORTO · ETANOL" contra o resto do Brasil em verde com "LUZ · ÁGUA · ARROZ" |
+| O que aconteceria com o Brasil se São Paulo virasse um país | SP separado por uma linha de fronteira + "EMBARQUE INTERNACIONAL" (o painel da rodoviária do Tietê) |
+
+O segundo é o mais próximo da pergunta do próprio vídeo e funciona como espelho: o paulista e o resto do Brasil querem responder, cada um defendendo o seu lado, como no "E a sua virou?". O terceiro põe o Brasil inteiro na frase, então ninguém fica de fora.
 
 ## Fontes
 
