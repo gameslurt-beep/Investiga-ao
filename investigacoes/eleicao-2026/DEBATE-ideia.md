@@ -25,19 +25,8 @@
 
 Se o placar final de 2026 ficar longe do de 2022, o gancho muda; o mapa de vento continua.
 
-## Regras do tema (Luke)
-- **Não polarizar, não irritar, não defender ninguém, não incitar.** Só fatos, de um jeito que os dois lados entendam e interpretem como quiserem. O debate é de quem assiste. Aproveitar o sentimento normal, não a raiva.
-- **O mapa é o centro.** A história é contada NO mapa; vídeo ou foto é acessório.
-- **Algo único:** esquecer o projeto "SP país / 30 dias" e os vícios dele. Fugir do que jornais e todo mundo vão fazer.
-- Quer história com impacto e emoção, que mexa com o momento do país.
-
-## Como manter neutro (combinado)
-- Falar de **lugares**, não de pessoas ("nas cidades com renda mais alta...", nunca "quem é pobre vota em X"); mostrar as exceções.
-- Camadas/recortes escolhidos por **critério fixo** antes de ver o resultado; manter os que não mostram nada.
-- Narrador **nunca diz "porque"**: mostra a coincidência e deixa a pergunta.
-- Final emocional só se existir **de verdade** nos dados.
-- Os dois candidatos com o mesmo tratamento (tempo de tela, foto, etiqueta). Cores neutras, não as dos partidos. Fonte na tela em todo número (TSE, IBGE). Sem adjetivo de resultado ("esmagadora", "histórica") e sem emoção de nenhum lado.
-- "Mudou de lado" é **estimativa** pela mudança de cada cidade (voto é secreto): dizer isso na tela.
+## Sobre regras
+Luke (27/10): sem regras fixas, para não ficar exagerado. O que se falou sobre neutralidade foi conversa, não checklist. Julgar caso a caso.
 
 ## Dados necessários (quando sair o oficial)
 - TSE dados abertos: votação por município (e por seção, se precisar) do 2º turno de 2022 e de 2026, comparecimento e abstenção.
