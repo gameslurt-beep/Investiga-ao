@@ -52,3 +52,6 @@ Generate these images/videos in order, vertical 9:16, cinematic, dark investigat
 06 Extreme close-up of an ink pen tip resting on blank paper under warm lamp light, shallow depth of field.
 ```
 Nos quadros em branco entram depois a carta, as fotos e os recortes reais, por cima, em código.
+
+## 5. Motor (resposta ao Luke, 29/10)
+Mesmo motor (Remotion + mix/SFX + render na nuvem). O mapa sai e o fundo vira o vídeo do Flow. Reaproveita: holofote (destaque do mapa) na linha da carta, relógio/contador da Virada, etiquetas/janelinhas como aspas e recortes, narração/SFX/mix. Novo: só o cursor apagando/digitando e a câmera andando pela carta. Cuidado: a carta real é posta e movida em CÓDIGO sobre a mesa do Flow. Não deixar a câmera do Flow andar sobre a carta, senão o texto precisaria de rastreamento.
