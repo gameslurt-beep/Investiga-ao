@@ -2,7 +2,12 @@
 
 Ponto de partida para qualquer sessão nova. Código, roteiros e prompts estão em `investigacoes/` (mesma estrutura da pasta do projeto). As notas da memória do projeto estão em `notas/`. O texto completo dos documentos de análise está em `documentos/`. Vídeos e imagens ficam só na pasta do projeto no Claude.
 
-## 0. COMECE AQUI (atualizado em 26/10/2026)
+## 0. COMECE AQUI (atualizado em 29/10/2026)
+### Short da carta do Flávio + formatos de notícia sem rosto
+- Tudo o que foi debatido (decisões do canal, fatos com fonte, roteiro, design "mesa de investigação", prompts do Flow, pendências): `investigacoes/carta-flavio/HANDOFF-carta-flavio.md`
+- Roteiro atual: `investigacoes/carta-flavio/roteiro-v2.md`
+
+## 0b. Anterior (26/10/2026)
 ### Vídeo da eleição 2026: "Os que mudaram de lado" (em debate)
 - Tudo o que foi debatido (ideia escolhida, estrutura de 8 partes, "mapa de vento", regras de neutralidade, dados necessários, ideias de reserva): `investigacoes/eleicao-2026/DEBATE-ideia.md`
 - Nota da memória: `notas/video-eleicao-2026.md`
