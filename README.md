@@ -2,7 +2,13 @@
 
 Ponto de partida para qualquer sessão nova. Código, roteiros e prompts estão em `investigacoes/` (mesma estrutura da pasta do projeto). As notas da memória do projeto estão em `notas/`. O texto completo dos documentos de análise está em `documentos/`. Vídeos e imagens ficam só na pasta do projeto no Claude.
 
-## 0. COMECE AQUI (atualizado em 29/10/2026)
+## 0. COMECE AQUI (atualizado em 30/10/2026)
+### Como fazemos os vídeos de mapa (Virada, Fuga do Flávio, Guerra)
+- Guia único (formato, técnica, pipeline, tempos, armadilhas, onde está cada arquivo): `investigacoes/mapa-producao/COMO-FAZEMOS-OS-MAPAS.md`
+- Código do motor: `investigacoes/mapa-producao/codigo/` (fuga, guerra) e `investigacoes/eleicao-2026/virada/`
+- Vídeos de mapa abrem em Sonnet 5.5.
+
+## 0a. (29/10/2026)
 ### Short da carta do Flávio + formatos de notícia sem rosto
 - Tudo o que foi debatido (decisões do canal, fatos com fonte, roteiro, design "mesa de investigação", prompts do Flow, pendências): `investigacoes/carta-flavio/HANDOFF-carta-flavio.md`
 - Roteiro atual: `investigacoes/carta-flavio/roteiro-v2.md`
